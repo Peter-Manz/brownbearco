@@ -1,0 +1,173 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-color: #3A1F11;
+    height: 60px;
+    width: 100%;
+    padding: 0.5rem 0rem;
+    color: #f5f5f5;
+    box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+    z-index: 1;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.nav-list {
+    display: flex;
+    margin-left: auto;
+}
+
+.nav-list ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    z-index: 2;
+    letter-spacing: 1px;
+}
+
+.nav-icons {
+    color: whitesmoke;
+    display: flex;
+    margin: 0px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.nav-list li {
+    display: flex;
+    list-style-type: none;
+    margin: 0 1rem;
+    color: #f5f5f5;
+    width: 100px;
+}
+
+.nav-list li a {
+    padding: 3px;
+    margin: 0px 3px;
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-list li a:hover {
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+.nav-list li a.active {
+    font-weight: 600;
+    border-bottom: 1.5px solid whitesmoke;
+}
+
+.brownbearlogo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.brownbearlogo a { 
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.brownbearlogo a:link, a:visited,  a:hover, a:active{
+    color: #f5f5f5;
+    text-decoration: none;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+    margin:0px;
+    padding:0px;
+}
+
+.hamburger {
+    border: 0;
+    height: 32px;
+    width: 32px;
+    padding: .125rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    position: absolute;
+    top: 47%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: none;
+    color: white;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px rgb(58, 31, 17));
+    color: rgba(225, 225, 225, 0.5);
+}
+
+@media screen and (max-width: 1300px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-list ul {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 60px);
+        background-color: white;
+        border-top: 1px solid black;
+        display: none;
+    }
+
+    .nav-list li {
+        text-align: center;
+        margin: 10px auto;
+        border: 1px dotted #3A1F11;
+        border-radius: 5px;
+        width: 95%;
+        height: 50px;
+    }
+
+    .nav-list li a:hover {
+        background-color: rgb(58, 31, 17, .25);
+        border: none;
+    }
+
+    .nav-list li a {
+        color: rgb(58, 31, 17);
+        padding-top: 13px;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .nav-icons {
+        display: none;
+    }
+
+    .nav-list li a.active {
+        font-weight: 600;
+        font-size: 20px;
+        background-color: rgb(58, 31, 17, .25);
+        border: none;
+    }
+
+    .nav-list.expanded ul {
+        display: block;
+    }
+
+    .brownbearlogo {
+        font-size: 14px;
+        font-weight: 200;
+        margin: 0 auto;
+    }
+}
