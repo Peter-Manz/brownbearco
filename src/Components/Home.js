@@ -37,19 +37,6 @@ export default function Home() {
             Now you can’t get any fresher than that!</p>
             <img data-aos="fade-up" src={bagelImg} className="bagel-pic"></img>
             </div>
-          <br></br>
-          <hr></hr>
-          <hr></hr>
-          <h4>Monthly Events</h4>
-          <Carousel data={coffeeFood}/>
-          <h4 data-aos="fade-up" >Paint and Prosecco</h4>
-          <p data-aos="fade-up" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Recusandae repudiandae repellat illo magni eligendi cupiditate voluptates eius nam voluptate. 
-            Incidunt nihil ullam quae quia officia quaerat, deserunt eligendi explicabo totam?</p>
-          <h4 data-aos="fade-up" >Paint and Prosecco</h4>
-          <p data-aos="fade-up" >Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Recusandae repudiandae repellat illo magni eligendi cupiditate voluptates eius nam voluptate. 
-            Incidunt nihil ullam quae quia officia quaerat, deserunt eligendi explicabo totam?</p>
         </div>
       )
   }

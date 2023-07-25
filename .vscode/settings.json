@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/fa566c7b-e097-4480-9158-3ab675c708fb/resourceGroups/brownbearbeta_group/providers/Microsoft.Web/sites/brownbearbeta",
+    "appService.deploySubpath": "."
+}
