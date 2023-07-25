@@ -6,7 +6,7 @@ export default function Visit() {
     return(
     <div className="visit-content">
       <img src={ShopPic} className='shop-pic'></img>
-        <h4>Visit</h4>
+        <h4>Find Us</h4>
         <h3 className='visit-title'>Coffee Shop</h3>
         <p>Brown Bear Coffee, 45 Thingwall Road, Irby, Wirral, CH61 3UE</p>
         <h3 className='visit-title' >Hours of Operation</h3>

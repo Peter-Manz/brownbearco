@@ -12,8 +12,9 @@ export default function Story() {
      
   return(
     <div className="visit-content">
-      <img src={CodyTown} className='story-pic'></img>
       <h4>The Origin of Brown Bear</h4>
+      <img src={CodyTown} className='story-pic'></img>
+      
       <p >Okay, bare with me. We’re transporting back to 2018 (a much simpler time), all I could think about was travelling the world. 
             After doing some classic soul searching in South East Asia, I went to see family friends in Cody, Wyoming. 
             It’s hard to put into words how much this small American town inspired and impacted every part of my life. </p>
