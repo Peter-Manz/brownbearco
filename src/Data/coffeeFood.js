@@ -1,6 +1,6 @@
-import img1 from '../Assets/AfternoonTea1.png'
-import img2 from '../Assets/PaintAndProsecco.png'
-import img3 from '../Assets/PaintAndProsecco2.png'
+import img1 from '../Assets/coffeeart.png'
+import img2 from '../Assets/bearcoffeeart.png'
+import img3 from '../Assets/summerdrink.png'
 
 export const coffeeFood = [
     {
