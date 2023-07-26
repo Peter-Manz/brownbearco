@@ -26,36 +26,43 @@ code {
   font-weight: 400;
 }
 .content h4{
-  display: block;
-  width: 100%;
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  margin:20px auto;  
+  margin:20px auto; 
+  padding-top: 10px;
+  height: fit-content;
 }
-.text-pic{
+h5{
+  display: block;
+  padding: 0px;
+  height: fit-content;
+  text-align: left;
+  margin: 0px;
+}
+.content-card{
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 65px;
+}
+.content-text {
+  width: 55%;
+  padding: 10px ;
+  margin: auto;
+}
+.content-pic{
+  width: 350px;
+  border-radius: 5px;
+  margin: 15px;
 }
 .mug-pic {
-  display: block;
   height: 275px;
 }
-.content p{
-  padding:50px 0;
-  width: 550px;
-  margin: 0px auto;
-  align-content: center;
-}
-
 .bagel-pic {
-  display: flex;
-  flex-wrap: wrap;
-  width: 275px;
-  height: fit-content;
-  margin:0 auto;
+  width: 350px;
+  border-radius: 5px;
+  margin: 15px;
 }
-
 .visit-title{
   margin: 20px auto;
   width: 50%;
@@ -111,16 +118,26 @@ code {
   object-fit: cover;
   margin-bottom: 25px;
 }
-
 @media screen and (max-width: 1000px) {
-  .text-pic{
-    display: block;
-    flex-wrap: nowrap;
+  .content-pic{
+    width: 40%;
   }
-  .content p{
-    width: inherit;
-    padding: 25px;
-    margin: 0;
+  .content-text{
+    width: 45%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content-text{
+    margin: 0 auto;
+    padding: 0px 20px;
+    text-align: center;
+    width: auto;
+    margin-bottom: 50px;
+  }
+  .content-pic{
+    width: 100%;
+    border-radius: 0px;
+    margin: 0px auto;
   }
   .mug-pic {
     margin: 0px auto;
@@ -142,5 +159,10 @@ code {
   .shop-pic {
     height: 300px;
   }
-
+  h5{
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin:10px;
+  }
 }
