@@ -16,9 +16,8 @@ export default function Footer() {
             <div className="contact-us">
                 <h3>Contact Us</h3>
                 <ul>
-                    <li><p>45 Thingwall Road, Irby, United Kingdom</p></li>
-                    <li><p>0151 936 3213</p></li>
-                    <li><p>www.bownbearcoffee.co.uk</p></li>
+                    <li><p>45 Thingwall Road, Irby, Wirral, CH61 3UE, UK</p></li>
+                    <li><p>0151.936.3213</p></li>
                     <li><p>@2023 Brown Bear Co. | All Rights Reserved</p></li>
                 </ul>
             </div>

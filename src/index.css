@@ -99,7 +99,7 @@ h5{
 }
 .visit-content p {
   display: block;
-  padding: 0px 25px;
+  padding: 0px;
   max-width: 50%;
   margin:20px auto;  
   margin-bottom: 50px;
@@ -117,7 +117,7 @@ h5{
   object-fit: cover;
   margin-bottom: 25px;
 }
-.menu-link-container{
+.menu-link-container {
   background-color: #3A1F11;
   text-align: center;
   height: 35px;
@@ -137,11 +137,20 @@ h5{
 }
 .menu-link {
   text-decoration: none;
+  color: #f5f5f5;
 }
 .menu-link a:link, a:visited,  a:hover, a:active{
   text-decoration: none;
+  color: #f5f5f5;
+}
+.visit-days p{
+  padding:0px;
+  margin:0px auto;
 }
 @media screen and (max-width: 1000px) {
+  .visit-days p{
+    font-weight: 400;
+  }
   .content-pic{
     width: 40%;
   }
@@ -166,6 +175,7 @@ h5{
     margin: 0px auto;
   }
   .visit-content p {
+    padding: 0px 20px;
     max-width: 100%;
   }
   .visit-content h4{

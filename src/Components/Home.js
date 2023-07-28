@@ -1,10 +1,10 @@
 import { Carousel } from "./Carousel";
 import { coffeeFood } from "../Data/coffeeFood.js";
-import bagelImg from '../Assets/GreatAmericanBagel.png';
-import pancakesImg from '../Assets/Pancakes.png';
-import bearCoffeeArt from '../Assets/bearcoffeeart.png'
-import bearFrenchToast from '../Assets/BearFrenchToast.png';
-import eggsAvoHallImg from '../Assets/EggsAvoandHallumi.png'
+import bagelImg from '../Assets/GreatAmericanBagel.jpg';
+import pancakesImg from '../Assets/Pancakes.jpg';
+import bearCoffeeArt from '../Assets/bearcoffeeart.jpg'
+import bearPancakes from '../Assets/BearPancakes.jpg';
+import eggsAvoHallImg from '../Assets/EggsAvoandHallumi.jpg'
 import { Link } from 'react-router-dom';
 import { useEffect } from 'react';
 import Aos from 'aos';
@@ -64,7 +64,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h4>Breakfast and Lunch until 3pm</h4>
+      <h4>Brunch until 3pm</h4>
       <div className="content-card">
         <img data-aos="fade-up" src={pancakesImg} className="content-pic"></img>
         <div className="content-text">
@@ -74,10 +74,13 @@ export default function Home() {
       </div>
 
       <div className="content-card">
-        <img data-aos="fade-up" src={bearFrenchToast} className="content-pic"></img>
+        <img data-aos="fade-up" src={bearPancakes} className="content-pic"></img>
         <div className="content-text">
           <h5 data-aos="fade-up">American Pancakes</h5>
-          <p data-aos="fade-up">Made Fresh, using Our Secret American Inspired Recipe. Lather your fluffy pancakes with Maple Syrup</p>
+          <p data-aos="fade-up">Made Fresh, using Our Secret American Inspired Recipe. 
+          Lather your fluffy pancakes with some of our Topping Options. </p>
+          <p>
+          Choices: Maple Syrup & Bacon, Nutella & Cream, or Fresh Fruit, Vanilla Yoghurt & Honey.</p>
         </div>
       </div>
 

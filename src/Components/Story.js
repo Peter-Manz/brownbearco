@@ -1,8 +1,8 @@
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import RattleSnakeMtn from '../Assets/CarterMtn.png';
-import CodyTown from '../Assets/CodyWyTown.png';
-import BuffaloBillDam from '../Assets/buffalobilldam.png';
+import RattleSnakeMtn from '../Assets/CarterMtn.jpg';
+import CodyTown from '../Assets/CodyWyTown.jpg';
+import BuffaloBillDam from '../Assets/buffalobilldam.jpg';
 import React,{useEffect} from 'react';
 
 export default function Story() {
@@ -14,7 +14,6 @@ export default function Story() {
     <div className="visit-content">
       <h4>The Origin of Brown Bear</h4>
       <img src={CodyTown} className='story-pic'></img>
-      
       <p >Okay, bare with me. We’re transporting back to 2018 (a much simpler time), all I could think about was travelling the world. 
             After doing some classic soul searching in South East Asia, I went to see family friends in Cody, Wyoming. 
             It’s hard to put into words how much this small American town inspired and impacted every part of my life. </p>
