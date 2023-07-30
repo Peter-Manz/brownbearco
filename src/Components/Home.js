@@ -1,7 +1,8 @@
 import { Carousel } from "./Carousel";
 import { coffeeFood } from "../Data/coffeeFood.js";
 import bagelImg from '../Assets/GreatAmericanBagel.jpg';
-import pancakesImg from '../Assets/Pancakes.jpg';
+import bagelCinnamon from '../Assets/CinnamonRaisenBagel.jpg'
+import bearFrenchToast from '../Assets/BBFrenchToast.jpg';
 import bearCoffeeArt from '../Assets/bearcoffeeart.jpg'
 import bearPancakes from '../Assets/BearPancakes.jpg';
 import eggsAvoHallImg from '../Assets/EggsAvoandHallumi.jpg'
@@ -55,7 +56,7 @@ export default function Home() {
       </div>
 
       <div className="content-card">
-        <img data-aos="fade-up" src={bagelImg} className="content-pic"></img>
+        <img data-aos="fade-up" src={bagelCinnamon} className="content-pic"></img>
         <div className="content-text">
           <h5 data-aos="fade-up">Cinnamon Raisen Bagel</h5>
           <p data-aos="fade-up">Our twist on a teacake is our much loved cinnamon raisen bagel, lightly toasted + server with butter.
@@ -65,13 +66,6 @@ export default function Home() {
       </div>
 
       <h4>Brunch until 3pm</h4>
-      <div className="content-card">
-        <img data-aos="fade-up" src={pancakesImg} className="content-pic"></img>
-        <div className="content-text">
-          <h5 data-aos="fade-up">Bear French Toast</h5>
-          <p data-aos="fade-up">Crispy Bacon, Maple Syrup & Cinnamon or Vanilla Yogurt & Fruit Compote</p>
-        </div>
-      </div>
 
       <div className="content-card">
         <img data-aos="fade-up" src={bearPancakes} className="content-pic"></img>
@@ -79,7 +73,7 @@ export default function Home() {
           <h5 data-aos="fade-up">American Pancakes</h5>
           <p data-aos="fade-up">Made Fresh, using Our Secret American Inspired Recipe. 
           Lather your fluffy pancakes with some of our Topping Options. </p>
-          <p>
+          <p data-aos="fade-up">
           Choices: Maple Syrup & Bacon, Nutella & Cream, or Fresh Fruit, Vanilla Yoghurt & Honey.</p>
         </div>
       </div>
@@ -92,6 +86,14 @@ export default function Home() {
             Topped with Herbs or Chilli flakes.</p>
         </div>
       </div>
+      <div className="content-card">
+        <img data-aos="fade-up" src={bearFrenchToast} className="content-pic"></img>
+        <div className="content-text">
+          <h5 data-aos="fade-up">Bear French Toast</h5>
+          <p data-aos="fade-up">Crispy Bacon, Maple Syrup & Cinnamon or Vanilla Yogurt & Fruit Compote</p>
+        </div>
+      </div>
+
       <div className="menu-link-container">
         <Link className="menu-link" to="/Menus">VIEW OUR MENUS</Link>
       </div>
