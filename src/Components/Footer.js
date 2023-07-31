@@ -17,8 +17,8 @@ export default function Footer() {
                 <h3>Contact Us</h3>
                 <ul>
                     <li><p>45 Thingwall Road, Irby, Wirral, CH61 3UE, UK</p></li>
-                    <li><p>0151.936.3213</p></li>
-                    <li><p>@2023 Brown Bear Co. | All Rights Reserved</p></li>
+                    <li><a href='tel:01519363213' className="phone-number">0151.936.3213</a></li>
+                    <li><p>@2023 brownbearcompany.com | All Rights Reserved</p></li>
                 </ul>
             </div>
         </div>
