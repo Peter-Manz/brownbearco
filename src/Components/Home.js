@@ -58,8 +58,8 @@ export default function Home() {
       <div className="content-card">
         <img data-aos="fade-up" src={bagelCinnamon} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">Cinnamon Raisen Bagel</h5>
-          <p data-aos="fade-up">Our twist on a teacake is our much loved cinnamon raisen bagel, lightly toasted + server with butter.
+          <h5 data-aos="fade-up">Cinnamon Raisin Bagel</h5>
+          <p data-aos="fade-up">Our twist on a teacake is our much loved cinnamon raisin bagel, lightly toasted + server with butter.
             Or go for our signature Brown Bear Bagel (plain) on it's own or as part of our lunch menu;
             BLT, Rueben, Cheeseburger bagel. The list is endless!</p>
         </div>
