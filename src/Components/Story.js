@@ -14,7 +14,7 @@ export default function Story() {
     <div className="visit-content">
       <h4>The Origin of Brown Bear</h4>
       <img src={CodyTown} className='story-pic'></img>
-      <p >Okay, bare with me. We’re transporting back to 2018 (a much simpler time), all I could think about was travelling the world. 
+      <p >Okay, bare with me. We’re transporting back to 2018 (a much simpler time), all I could think about was traveling the world. 
             After doing some classic soul searching in South East Asia, I went to see family friends in Cody, Wyoming. 
             It’s hard to put into words how much this small American town inspired and impacted every part of my life. </p>
            
@@ -26,7 +26,7 @@ export default function Story() {
       <img data-aos="fade-up" src={BuffaloBillDam} className='story-pic'></img>
       <p data-aos="fade-up" >Not only this, but Cody is beautifully intertwined with extraordinary wildlife and indescribably beautiful surroundings. 
             I came home (bringing my own Cowboy with me) and now Peter and I want to bring an essence of Cody Wyoming to our local community. 
-            Western America with it’s indulgent, moreish flavours, breathtaking landscape and superb hospitality, inspires us to provide comforting and enticing food, 
+            Western America with its indulgent, moreish flavours, breathtaking landscape and superb hospitality, inspires us to provide comforting and enticing food, 
             treat our environment with care and serve you like family.</p>
    </div>
 

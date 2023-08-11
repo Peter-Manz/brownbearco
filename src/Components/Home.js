@@ -38,7 +38,7 @@ export default function Home() {
           <p data-aos="fade-up">We aim to give you the perfect cup of joe to elevate this moment,
             so we work alongside a Liverpool roaster that is equally as fanatical about using high quality,
             selectively picked, sustainably sourced coffee beans.
-            We’ve chosen coffee beans with sweet American undertones of caramel, brown sugar, dark chocolate + toffee sweatness.
+            We’ve chosen coffee beans with sweet American undertones of caramel, brown sugar, dark chocolate + toffee sweetness.
             Our Coffee has character and is loved by our Customers.
           </p>
         </div>
@@ -60,7 +60,7 @@ export default function Home() {
         <div className="content-text">
           <h5 data-aos="fade-up">Cinnamon Raisin Bagel</h5>
           <p data-aos="fade-up">Our twist on a teacake is our much loved cinnamon raisin bagel, lightly toasted + server with butter.
-            Or go for our signature Brown Bear Bagel (plain) on it's own or as part of our lunch menu;
+            Or go for our signature Brown Bear Bagel (plain) on its own or as part of our lunch menu;
             BLT, Rueben, Cheeseburger bagel. The list is endless!</p>
         </div>
       </div>
