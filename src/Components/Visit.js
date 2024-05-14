@@ -8,13 +8,13 @@ export default function Visit() {
         <p>Brown Bear Coffee, 45 Thingwall Road, Irby, Wirral, CH61 3UE</p>
         <h3 className='visit-title' >Hours of Operation</h3>
         <ul>
-          <li className='visit-days'><p>Monday: 8:00am - 4:30pm</p></li>
-          <li className='visit-days'><p>Tuesday: 8:00am - 4:30pm</p></li>
-          <li className='visit-days'><p>Wednesday: 8:00am - 4:30pm</p></li>
-          <li className='visit-days'><p>Thursday: 8:00am - 4:30pm</p></li>
-          <li className='visit-days'><p>Friday: 8:30am - 5:00pm</p></li>
-          <li className='visit-days'><p>Saturday: 9:00am - 4:30pm</p></li>
-          <li className='visit-days'><p>Sunday: 8:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Monday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Tuesday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Wednesday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Thursday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Friday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Saturday: 9:00am - 4:00pm</p></li>
+          <li className='visit-days'><p>Sunday: 9:00am - 4:00pm</p></li>
         </ul>
         <h3 className='visit-title' >Phone</h3>
         <p>0151.936.3213</p>

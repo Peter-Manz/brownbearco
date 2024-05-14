@@ -7,16 +7,10 @@ import bearCoffeeArt from '../Assets/bearcoffeeart.jpg'
 import bearPancakes from '../Assets/BearPancakes.jpg';
 import eggsAvoHallImg from '../Assets/EggsAvoandHallumi.jpg'
 import { Link } from 'react-router-dom';
-import { useEffect } from 'react';
-import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 export default function Home() {
 
-
-  useEffect(() => {
-    Aos.init({ duration: 1500 });
-  }, []);
 
   return (
     <div className="content">
@@ -32,10 +26,10 @@ export default function Home() {
 
       <h4>Coffee</h4>
       <div className="content-card">
-        <img data-aos="fade-up" src={bearCoffeeArt} className="content-pic"></img>
+        <img src={bearCoffeeArt} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">Flat White</h5>
-          <p data-aos="fade-up">We aim to give you the perfect cup of joe to elevate this moment,
+          <h5 >Flat White</h5>
+          <p>We aim to give you the perfect cup of joe to elevate this moment,
             so we work alongside a Liverpool roaster that is equally as fanatical about using high quality,
             selectively picked, sustainably sourced coffee beans.
             We’ve chosen coffee beans with sweet American undertones of caramel, brown sugar, dark chocolate + toffee sweetness.
@@ -46,20 +40,20 @@ export default function Home() {
 
       <h4>Bagels</h4>
       <div className="content-card">
-        <img data-aos="fade-up" src={bagelImg} className="content-pic"></img>
+        <img  src={bagelImg} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">Great American Bagel</h5>
-          <p data-aos="fade-up">Our bagels are made in the Brown Bear Bakery at the back of the shop.
+          <h5 >Great American Bagel</h5>
+          <p >Our bagels are made in the Brown Bear Bakery at the back of the shop.
             Not only do they have our personal touch and care poured into every one of them, but the smell of freshly baked bagel dough is heavenly.
             Now you can’t get any fresher than that! </p>
         </div>
       </div>
 
       <div className="content-card">
-        <img data-aos="fade-up" src={bagelCinnamon} className="content-pic"></img>
+        <img src={bagelCinnamon} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">Cinnamon Raisin Bagel</h5>
-          <p data-aos="fade-up">Our twist on a teacake is our much loved cinnamon raisin bagel, lightly toasted + server with butter.
+          <h5>Cinnamon Raisin Bagel</h5>
+          <p>Our twist on a teacake is our much loved cinnamon raisin bagel, lightly toasted + server with butter.
             Or go for our signature Brown Bear Bagel (plain) on its own or as part of our lunch menu;
             BLT, Rueben, Cheeseburger bagel. The list is endless!</p>
         </div>
@@ -68,29 +62,29 @@ export default function Home() {
       <h4>Brunch until 3pm</h4>
 
       <div className="content-card">
-        <img data-aos="fade-up" src={bearPancakes} className="content-pic"></img>
+        <img src={bearPancakes} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">American Pancakes</h5>
-          <p data-aos="fade-up">Made Fresh, using Our Secret American Inspired Recipe. 
+          <h5>American Pancakes</h5>
+          <p>Made Fresh, using Our Secret American Inspired Recipe. 
           Lather your fluffy pancakes with some of our Topping Options. </p>
-          <p data-aos="fade-up">
+          <p>
           Choices: Maple Syrup & Bacon, Nutella & Cream, or Fresh Fruit, Vanilla Yoghurt & Honey.</p>
         </div>
       </div>
 
       <div className="content-card">
-        <img data-aos="fade-up" src={eggsAvoHallImg} className="content-pic"></img>
+        <img src={eggsAvoHallImg} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up" >Eggs, Avocado, & Grilled Halloumi (V)</h5>
-          <p data-aos="fade-up" >Poached Eggs, Avocado and Grilled Halloumi served on Sourdough Toast.
+          <h5>Eggs, Avocado, & Grilled Halloumi (V)</h5>
+          <p>Poached Eggs, Avocado and Grilled Halloumi served on Sourdough Toast.
             Topped with Herbs or Chilli flakes.</p>
         </div>
       </div>
       <div className="content-card">
-        <img data-aos="fade-up" src={bearFrenchToast} className="content-pic"></img>
+        <img src={bearFrenchToast} className="content-pic"></img>
         <div className="content-text">
-          <h5 data-aos="fade-up">Bear French Toast</h5>
-          <p data-aos="fade-up">Crispy Bacon, Maple Syrup & Cinnamon or Vanilla Yogurt & Fruit Compote</p>
+          <h5>Bear French Toast</h5>
+          <p>Crispy Bacon, Maple Syrup & Cinnamon or Vanilla Yogurt & Fruit Compote</p>
         </div>
       </div>
 

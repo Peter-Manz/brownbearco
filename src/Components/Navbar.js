@@ -1,8 +1,8 @@
 import React from 'react';
 import './Navbar.css';
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import {BsList, BsFillHouseFill,BsXSquareFill,BsCupHotFill,BsFillPinMapFill,BsBookHalf } from 'react-icons/bs';
+import {BsList, BsFillHouseFill, BsCupHotFill,BsFillPinMapFill,BsBookHalf } from 'react-icons/bs';
 import BrownBearLogo from '../Assets/BrownBearLogo.png'
 
 export default function Navbar(){
