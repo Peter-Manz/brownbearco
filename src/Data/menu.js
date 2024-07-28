@@ -1,18 +1,33 @@
-import img1 from '../Assets/BrownBearDrinks.png'
-import img2 from '../Assets/BrownBearBreakfast.png'
-import img3 from '../Assets/BrownBearLunch.png'
+import BreakfastMenu from '../Assets/Breakfast Menu.png'
+import BeveragesMenu from '../Assets/Beverages Menu.png'
+import SandwichesMenu from '../Assets/Sandwiches Menu.png'
+import LunchMenu from '../Assets/Lunch Menu.png'
+import KidsMenu from '../Assets/Kids Menu.png'
+import DrinksMenu from '../Assets/Drinks Menu.png'
 
 export const menu = [
     {
-        "src": img1 ,
+        "src":  DrinksMenu,
         "alt": "Drinks Menu"
     },
     {
-        "src":  img2,
+        "src":  BeveragesMenu,
+        "alt": "Beverages Menu"
+    },
+    {
+        "src": BreakfastMenu ,
         "alt": "Breakfast Menu"
     },
     {
-        "src": img3,
+        "src": LunchMenu ,
         "alt": "Lunch Menu"
+    },
+    {
+        "src": SandwichesMenu,
+        "alt": "Sandwiches Menu"
+    },
+    {
+        "src": KidsMenu,
+        "alt": "Kids Menu"
     }
 ]

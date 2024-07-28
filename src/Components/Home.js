@@ -7,7 +7,6 @@ import bearCoffeeArt from '../Assets/bearcoffeeart.jpg'
 import bearPancakes from '../Assets/BearPancakes.jpg';
 import eggsAvoHallImg from '../Assets/EggsAvoandHallumi.jpg'
 import { Link } from 'react-router-dom';
-import 'aos/dist/aos.css';
 
 export default function Home() {
 

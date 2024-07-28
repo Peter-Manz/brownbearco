@@ -1,16 +1,18 @@
-import React, { useState, useEffect  } from "react";
+import React, { useState } from "react";
 import { BsArrowLeftCircleFill, BsArrowRightCircleFill } from "react-icons/bs";
 import "./Carousel.css";
 
-export const Carousel = ({ data}) => {
+export const Carousel = ({ data }) => {
+    const count= Object.keys(data).length; 
+
     const [slide, setSlide] = useState(0);
 
     const nextSlide = () => {
-        setSlide(slide === 2 ? 0 : slide + 1);
+        setSlide(slide === (count-1) ? 0 : slide + 1);
     };
 
     const prevSlide = () => {
-        setSlide(slide === 0 ? 2 : slide - 1);
+        setSlide(slide === 0 ? (count-1) : slide - 1);
     };
 
     return (

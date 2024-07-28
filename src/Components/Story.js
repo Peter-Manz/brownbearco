@@ -1,4 +1,3 @@
-import 'aos/dist/aos.css';
 import RattleSnakeMtn from '../Assets/CarterMtn.jpg';
 import CodyTown from '../Assets/CodyWyTown.jpg';
 import BuffaloBillDam from '../Assets/buffalobilldam.jpg';
@@ -21,7 +20,7 @@ export default function Story() {
             I have never experienced so much love and acceptance from perfect strangers.</p>
       <img src={BuffaloBillDam} className='story-pic'></img>
       <p>Not only this, but Cody is beautifully intertwined with extraordinary wildlife and indescribably beautiful surroundings. 
-            I came home (bringing my own Cowboy with me) and now Peter and I want to bring an essence of Cody Wyoming to our local community. 
+            We want to bring an essence of Cody Wyoming to our local community. 
             Western America with its indulgent, moreish flavours, breathtaking landscape and superb hospitality, inspires us to provide comforting and enticing food, 
             treat our environment with care and serve you like family.</p>
    </div>
